@@ -8,7 +8,8 @@ Repositório onde eu reúno meus estudos sobre algoritmos.
   - [Bubble Sort](#bubble-sort)
   - [Selection Sort](#selection-sort)
   - [Crivo de Eratóstenes](#crivo-de-eratóstenes)
-  <!--toc:end-->
+- [References & Bibliography](#references-bibliography)
+<!--toc:end-->
 
 ## Bubble Sort
 
@@ -21,3 +22,7 @@ Diferentemente do Bubble Sort, o Selection Sorte utiliza ativamente o primeiro l
 ## Crivo de Eratóstenes
 
 Algoritmo criado para encontrar todos os primos em um dado intervalo de números naturais. A especialidade desse algoritmo é usar múltiplos em vez de percorrer a lista até [não] encontrar divisores para candidatos a primos.
+
+## References & Bibliography
+
+- [The Genuine Sieve of Eratosthenes (Melissa E. O’Neill)](https://www.cs.hmc.edu/~oneill/papers/Sieve-JFP.pdf)
