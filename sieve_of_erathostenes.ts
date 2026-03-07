@@ -12,12 +12,12 @@ function sieveOfErathostenes() {
   let composites: Array<number> = [];
   let primes: Array<number> = [];
 
-  const arrayLength = numbers.length; // 119 indexes
+  const arrayLength = numbers.length;
 
-  for (let i = 0; i < arrayLength - 1; i++) {
+  for (let i = 0; i < arrayLength; i++) {
     let candidate = numbers[i];
 
-    for (let j = 0; j < arrayLength; j++) {
+    for (let j = 0; j < arrayLength + 1; j++) {
       if (candidate * numbers[j] < arrayLength) {
         composites.push(candidate * numbers[j]);
       }
